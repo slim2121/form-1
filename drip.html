@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(122, 22, 22);
+            padding-top: 90px;
+        }
+        .good{
+            background-color: rgba(85, 15, 15, 0.959);
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+            max-width: 700px;
+            padding-bottom: 20px;
+            font-size: x-large;
+            font-family: sans-serif;
+            
+        }
+        label{
+            color: white;
+        }
+        input{
+            font-size: x-large;
+        }
+        fieldset{
+            width: 600px;
+            margin-left: 80px;
+            border: none;
+        }
+        .of{
+            margin-left: 98px;
+            display: inline;
+        }
+        .ok{
+            display: inline;
+            margin-left: 102px;
+        }
+        .we{
+            display: inline;
+            margin-left: 56px;
+        }
+        .ol{
+            display: inline; 
+            margin-right: 5px;
+        }
+        .all{
+            margin-left: 81px;
+        }
+        .be{
+            display: inline;
+            margin-left: 56px;
+        }
+        .lo{
+            display: inline;
+            margin-left: 65px;
+        }
+        .de{
+            display: inline;
+            margin-left: 100px;
+        }
+        select{
+            font-size: large;
+            background-color: silver;
+        }
+        button{
+            width: 500px;
+            height: 40px;
+            border: none;
+            border-radius: 5px;
+            font-size: larger;
+        }
+        .see{
+            padding-top: 20px;
+        }
+        .ko, .yo, .go, .ro, .bo, .no, .mo, .to{
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="good">
+       <fieldset>
+        <form action="">
+            <div class="no"><label for="name">Name: <div class="of"><input type="text" name="name" id="name" placeholder="Your name"></div></label><br></div>
+            <div class="mo"><label for="email">Email: <div class="ok"><input type="text" name="email" id="email" placeholder="Your email"></div></label><br></div>
+            <div class="bo"><label for="password">Password: <div class="we"><input type="text" name="password" id="password"></div></label><br></div>
+            <div class="go"><label for="number">Phone Number: <div class="ol"><input type="text" name="number" id="number"></div></label><br></div>
+            <div class="ro"><label for="gender">Gender: <label class="all" for="male"> Male:<input type="radio">Female:<input type="radio">Others:<input type="radio"></label></label><br></div>
+            <div class="to"><label for="language">Language: <div class="be"><select name="lang" id="lang"><option value="1">Select language</option></select></div></label><br></div>
+            <div class="yo"><label for="code">Zip Code: <div class="lo"><input type="text" name="code" id="code"></div></label><br></div>
+            <div class="ko"><label for="about">About: <div class="de"><textarea name="about" id="about" cols="38" rows="5" placeholder="What about yourself..."></textarea></div></label><br></div>
+            <div class="see"><button><strong>Register</strong></button></div>
+        </form>
+       </fieldset>
+    </div>
+</body>
+</html>
